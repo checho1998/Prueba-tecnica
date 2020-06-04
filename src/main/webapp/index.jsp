@@ -1,5 +1,5 @@
 <html>
-  <title>Inicio</title>
+  <title>index</title>
 <body>
   Hola Mundo!
 </body>
