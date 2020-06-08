@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  
+  <mapper namespace="com.principal.mappers.UsuarioMapper">
+  
+  <insert parameterType="map" id="agregarUsuario" >
+  
+  insert into usuario (nombre, apellido, nacionalidad, tipodocumento, numdocumento, email, observaciones, telefono, fecha, estado)
+		values (#{nomb}, #{apellid}, #{nacionalid}, #{tipoDocument}, #{numDocument},#{emai}, #{observacion}, #{telefon}, #{fech}, #{estad});
+  
+  </insert>
+  
+  
+  
+  </mapper>
